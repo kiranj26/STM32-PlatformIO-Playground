@@ -1,3 +1,4 @@
 echo ".pio/" >> .gitignore
 echo ".vscode/" >> .gitignore
 echo "build/" >> .gitignore
+echo ".DS_Store" >> .gitignore
