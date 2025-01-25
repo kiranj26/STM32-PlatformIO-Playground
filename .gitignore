@@ -1,0 +1,3 @@
+echo ".pio/" >> .gitignore
+echo ".vscode/" >> .gitignore
+echo "build/" >> .gitignore
