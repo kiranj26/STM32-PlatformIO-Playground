@@ -8,9 +8,7 @@ This example demonstrates how to create a **breathing LED effect** on the onboar
 ---
 ## Video Explanation
 
-*Placeholder for adding a video link or description of how the breathing effect works.*
-
-- **[Add your video description or link here]**
+https://github.com/user-attachments/assets/146ba3d8-5372-4144-8977-46f3312e37a7
 
 ---
 
