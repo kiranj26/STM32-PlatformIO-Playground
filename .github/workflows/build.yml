@@ -12,11 +12,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        example:
-          - examples/01_LED_Blink
-
     steps:
       # Step 1: Checkout the code
       - name: Checkout repository
@@ -34,8 +29,7 @@ jobs:
           python3 -m pip install --upgrade pip
           pip install platformio
 
-      # Step 4: Build the PlatformIO project for Nucleo F030R8
-      - name: Build PlatformIO project
-        working-directory: ${{ matrix.example }}
+      # Step 4: Find and Build All PlatformIO Projects
+      - name: Build all PlatformIO projects
         run: |
-          platformio run --environment nucleo_f030r8
+          find . -name "platformio.ini" -execdir platformio run \;
