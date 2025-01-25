@@ -16,9 +16,6 @@ jobs:
       matrix:
         example:
           - examples/01_LED_Blink
-          - examples/02_Button_Press
-          - examples/03_PWM_Signal
-          - examples/04_UART_Comm
 
     steps:
       # Step 1: Checkout the code
