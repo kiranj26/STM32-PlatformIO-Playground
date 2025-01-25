@@ -6,7 +6,15 @@
 This example demonstrates how to use **PWM (Pulse Width Modulation)** to control the brightness of the onboard LED (connected to PA5) on the STM32 Nucleo F030R8 board. The LED brightness smoothly fades in and out by varying the PWM duty cycle over time.
 
 ---
+## Video Explanation
 
+
+https://github.com/user-attachments/assets/9d6f0732-2b4a-48f4-8ddb-e2a171569594
+
+
+
+
+---
 ## Why This Approach?
 
 ### Challenge:
@@ -76,14 +84,6 @@ The onboard LED is hardwired to GPIO **PA5**, which cannot directly generate a P
 
 1. **STM32 Nucleo F030R8** board.
 2. Jumper wire to connect **PA6** to **PA5**.
-
----
-
-## Video Explanation
-
-*Placeholder for adding a video link or description of how the fading works.*
-
-- **[Add your video description or link here]**
 
 ---
 
