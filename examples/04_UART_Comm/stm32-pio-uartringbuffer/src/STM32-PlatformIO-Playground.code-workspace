@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"name": "stm32-pio-uartecho",
+			"path": "../../stm32-pio-uartecho"
+		},
+		{
+			"name": "stm32-pio-uartexinterrupt",
+			"path": "../../stm32-pio-uartexinterrupt"
+		},
+		{
+			"name": "stm32-pio-uartdma",
+			"path": "../../stm32-pio-uartdma"
+		},
+		{
+			"name": "stm32-pio-uartringbuffer",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
