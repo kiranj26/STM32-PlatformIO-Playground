@@ -11,6 +11,12 @@ The project is configured to use **PlatformIO** with the **STM32Cube HAL** frame
 
 ---
 
+
+## UART Terminal Screenshot
+![Screenshot 2025-01-25 at 8 40 24 PM](https://github.com/user-attachments/assets/e1deb987-23d4-4b70-94a8-7c2a1c971f9b)
+
+---
+
 ## Table of Contents
 
 1. [Features](#features)
@@ -119,16 +125,6 @@ The project is configured to use **PlatformIO** with the **STM32Cube HAL** frame
 
 ### Changing LED Pin
 - The user LED on Nucleo-F030R8 is typically `PA5`. If your board uses a different pin, update `MX_GPIO_Init()` accordingly.
-
----
-
-## UART Terminal Screenshot
-
-Here is a placeholder image showing what your terminal **might** look like after startup and during echo testing:
-
-![UART Terminal Placeholder](docs/images/uart_terminal_placeholder.png "UART Terminal Placeholder")
-
-*(Replace this placeholder with your actual screenshot to document how it looks in a real setup.)*
 
 ---
 
