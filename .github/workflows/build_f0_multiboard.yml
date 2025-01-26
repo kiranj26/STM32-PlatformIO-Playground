@@ -1,0 +1,32 @@
+name: PlatformIO Build for F0 Multi-Board
+
+on:
+  push:
+    branches:
+      - multi-board-f0  # your new branch
+  pull_request:
+    branches:
+      - multi-board-f0
+
+jobs:
+  buildf0:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      - name: Install PlatformIO
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install platformio
+
+      - name: Build all PlatformIO projects for F0 boards
+        run: |
+          # Recursively find each 'platformio.ini' and run 'pio run' in that directory
+          find . -name "platformio.ini" -execdir pio run \;
