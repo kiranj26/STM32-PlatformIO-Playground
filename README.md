@@ -3,6 +3,8 @@
 Welcome to the **STM32 PlatformIO Playground**! This repository serves as a hands-on learning environment to explore various STM32 peripherals using PlatformIO as the sole IDE. The examples range from basic tasks like LED blinking to advanced peripheral operations such as UART communication, PWM, and more.
 
 ![Build Status](https://github.com/kiranj26/STM32-PlatformIO-Playground/actions/workflows/build.yml/badge.svg)
+![F0 Multi-Board Build Status](https://github.com/kiranj26/STM32-PlatformIO-Playground/actions/workflows/build_f0_multiboard.yml/badge.svg?branch=multi-board-f0)
+
 
 ## Repository Structure
 
